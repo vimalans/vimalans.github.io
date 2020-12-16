@@ -1,3 +1,21 @@
+.profile-picture-container, .professional-summary-container {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.profile-picture {
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+.page-heading {
+	font-size: 28px;
+}
+
+.section-heading {
+	font-size: 20px;
+}
+
 .subpanel .glyphicon
 {
 	font-size: 32px;
