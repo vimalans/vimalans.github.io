@@ -1,233 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vimalan Sakthivel | AI Solutions Architect</title>
+    <meta
+      name="description"
+      content="AI Solutions Architect portfolio for Vimalan Sakthivel, focused on UI architecture, enterprise solutions, strategy, and digital transformation."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            boxShadow: {
+              soft: '0 10px 30px rgba(15, 23, 42, 0.08)',
+            },
+            colors: {
+              brand: {
+                50: '#f5f7ff',
+                100: '#ebefff',
+                500: '#4f46e5',
+                600: '#4338ca',
+                700: '#3730a3',
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="css/portfolio.css" />
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased">
+    <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur">
+      <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <a href="index.html" class="text-lg font-semibold tracking-tight text-slate-900">
+          Vimalan Sakthivel
+        </a>
+        <div class="hidden items-center gap-6 text-sm font-medium text-slate-600 md:flex">
+          <a href="about.html" class="transition hover:text-brand-600">About</a>
+          <a href="experience.html" class="transition hover:text-brand-600">Experience</a>
+          <a href="projects.html" class="transition hover:text-brand-600">Projects</a>
+          <a href="awards.html" class="transition hover:text-brand-600">Awards</a>
+          <a href="contact.html" class="transition hover:text-brand-600">Contact</a>
+        </div>
+        <a
+          href="contact.html"
+          class="rounded-full bg-brand-600 px-4 py-2 text-sm font-semibold text-white shadow-soft transition hover:bg-brand-700"
+        >
+          Let’s Connect
+        </a>
+      </nav>
+    </header>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>Vimalan Sakthivel (UI Architect) - Online Portfolio</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <link href="css/main.css" rel="stylesheet" />
-</head>
+    <main>
+      <section class="mx-auto max-w-6xl px-4 pb-16 pt-14 sm:px-6 lg:px-8">
+        <div class="grid items-center gap-10 lg:grid-cols-[1.2fr_0.8fr]">
+          <div>
+            <p class="mb-4 inline-flex rounded-full border border-brand-100 bg-brand-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-brand-700">
+              AI Solutions Architect
+            </p>
+            <h1 class="max-w-xl text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
+              Building thoughtful digital experiences with intelligent, scalable solutions.
+            </h1>
+            <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+              I am a technology leader focused on designing modern UI systems, enterprise-grade digital platforms,
+              and AI-enabled experiences that bring clarity, speed, and business impact to complex workflows.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-4">
+              <a href="projects.html" class="rounded-full bg-slate-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-700">
+                View Projects
+              </a>
+              <a href="about.html" class="rounded-full border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-700 transition hover:border-slate-400 hover:text-slate-900">
+                About Me
+              </a>
+            </div>
+            <div class="mt-10 grid gap-4 sm:grid-cols-3">
+              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-soft">
+                <p class="text-2xl font-bold text-slate-900">14+</p>
+                <p class="mt-1 text-sm text-slate-600">Years in software delivery</p>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-soft">
+                <p class="text-2xl font-bold text-slate-900">6+</p>
+                <p class="mt-1 text-sm text-slate-600">Years in UI architecture</p>
+              </div>
+              <div class="rounded-2xl border border-slate-200 bg-white p-4 shadow-soft">
+                <p class="text-2xl font-bold text-slate-900">2</p>
+                <p class="mt-1 text-sm text-slate-600">Award recognitions</p>
+              </div>
+            </div>
+          </div>
 
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h1 class="page-heading">Vimalan Sakthivel - UI Architect </h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4 profile-picture-container">
-        <img src="images/vimalan.JPG" width="100%" alt="Vimalan Sakthivel image" class="profile-picture" />
-      </div>
-      <div class="col-sm-8 professional-summary-container">
-        <section>
-          <h2 class="section-heading">Professional Summary</h2>
-          <ul class="">
-            <li>
-              UI Architect with 6+ years of professional experience in UI
-              Development.
-            </li>
-            <li>
-              14+ years of experience in software development (July 2015 to
-              till date).
-            </li>
-            <li>
-              Skilled in technologies like Angular 6, Node.js, NgRx, CSS3,
-              SCSS, TypeScript, JavaScript, Bootstrap 4, RWD.
-            </li>
-            <li>
-              Experienced working in Redux (NgRx store) pattern and Facade
-              pattern.
-            </li>
-            <li>
-              Developed Server-Side Rendering (SSR) applications using Angular
-              Universal.
-            </li>
-            <li>
-              Worked on Angular upgrade project. Upgraded a large-scale
-              enterprise application from Angular 4 to Angular 6.
-            </li>
-            <li>
-              Designed technical solutions for futuristic customer experience
-              requirements.
-            </li>
-            <li>
-              Experienced integrating UI application with Content Management
-              System like AEM, providing ability for product owners to author
-              content in production without code change.
-            </li>
-            <li>
-              Worked in a Continuous integration and Continuous Deployment
-              (CICD) environment. With experience customize Jenkins pipelines
-              and deployment scripts.
-            </li>
-            <li>
-              Develop code using the Test-Driven Development (TDD) approach
-              writing Karma/Jasmine test cases with good code coverage (70+%).
-            </li>
-            <li>
-              Accurate understanding of Web Accessibility standards (WCAG
-              2.0), Corporate Accessibility Technology Office (CATO)
-              guidelines and WAI-ARIA recommendations.
-            </li>
-            <li>
-              Promote a highly effective Peer Code Review model with all team
-              members reviewing every merge request and providing feedback.
-            </li>
-            <li>
-              Experienced in agile mode of working. Actively participate and
-              contribute in agile ceremonies like grooming, planning and
-              retrospective.
-            </li>
-            <li>
-              Excellent problem-solving skills. Highly motivated about
-              narrowing down to the root cause of issues and identifying
-              simple solutions.
-            </li>
-            <li>
-              Played lead UI developer role in multiple initiatives.
-              Experienced in making key technical decisions through the
-              project lifecycle.
-            </li>
-            <li>
-              Very good team player. Promote team unity and friendly
-              atmosphere at work.
-            </li>
-          </ul>
-        </section>
-      </div>
-    </div>
-    <div class="row subpanel">
-      <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-        <i class="glyphicon glyphicon-book"></i>
-        <h2>Skills</h2>
-        <ul class="list-unstyled">
-          <li>Angular 6, HTML5, CSS3, JavaScript</li>
-          <li>Node.js, TypeScript, NgRx, Bootstrap 4</li>
-          <li>Oracle SQL, PL/SQL</li>
-          <li>Git</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Projects</h2>
-        <h3>Next Generation Accounts - Delta Air Lines</h3>
-        <p>
-          Next Generation Accounts and Profile is the responsive customer
-          experience that allows loyalty members of Delta Air Lines to view
-          their account, review and modify personal details, update their
-          preferences, add companions, save their favorite searches for faster
-          results, store their payment accounts, use eCredits and Vouchers.
-          The system integrates seamlessly with content management, backend
-          API’s and other responsive UI libraries and applications. It
-          provides product owners with the ability to customize content and
-          toggle features via remote configurations without the need of
-          releases.
-        </p>
-        <h4>Responsibilities:</h4>
-        <ul class="list-unstyled">
-          <li>Review UX Designs</li>
-          <li>Participate in agile ceremonies</li>
-          <li>Design technical solutions</li>
-          <li>Create Angular components and libraries</li>
-          <li>Write unit tests</li>
-          <li>Peer review code</li>
-          <li>Optimize code</li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <h3>Next Generation Accounts - Delta Air Lines</h3>
-        <p>
-          Next Generation Accounts and Profile is the responsive customer
-          experience that allows loyalty members of Delta Air Lines to view
-          their account, review and modify personal details, update their
-          preferences, add companions, save their favorite searches for faster
-          results, store their payment accounts, use eCredits and Vouchers.
-          The system integrates seamlessly with content management, backend
-          API’s and other responsive UI libraries and applications. It
-          provides product owners with the ability to customize content and
-          toggle features via remote configurations without the need of
-          releases.
-        </p>
-        <h4>Responsibilities:</h4>
-        <ul class="list-unstyled">
-          <li>Review UX Designs</li>
-          <li>Participate in agile ceremonies</li>
-          <li>Design technical solutions</li>
-          <li>Create Angular components and libraries</li>
-          <li>Write unit tests</li>
-          <li>Peer review code</li>
-          <li>Optimize code</li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <h3>Next Generation Accounts - Delta Air Lines</h3>
-        <p>
-          Next Generation Accounts and Profile is the responsive customer
-          experience that allows loyalty members of Delta Air Lines to view
-          their account, review and modify personal details, update their
-          preferences, add companions, save their favorite searches for faster
-          results, store their payment accounts, use eCredits and Vouchers.
-          The system integrates seamlessly with content management, backend
-          API’s and other responsive UI libraries and applications. It
-          provides product owners with the ability to customize content and
-          toggle features via remote configurations without the need of
-          releases.
-        </p>
-        <h4>Responsibilities:</h4>
-        <ul class="list-unstyled">
-          <li>Review UX Designs</li>
-          <li>Participate in agile ceremonies</li>
-          <li>Design technical solutions</li>
-          <li>Create Angular components and libraries</li>
-          <li>Write unit tests</li>
-          <li>Peer review code</li>
-          <li>Optimize code</li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <h3>Next Generation Accounts - Delta Air Lines</h3>
-        <p>
-          Next Generation Accounts and Profile is the responsive customer
-          experience that allows loyalty members of Delta Air Lines to view
-          their account, review and modify personal details, update their
-          preferences, add companions, save their favorite searches for faster
-          results, store their payment accounts, use eCredits and Vouchers.
-          The system integrates seamlessly with content management, backend
-          API’s and other responsive UI libraries and applications. It
-          provides product owners with the ability to customize content and
-          toggle features via remote configurations without the need of
-          releases.
-        </p>
-        <h4>Responsibilities:</h4>
-        <ul class="list-unstyled">
-          <li>Review UX Designs</li>
-          <li>Participate in agile ceremonies</li>
-          <li>Design technical solutions</li>
-          <li>Create Angular components and libraries</li>
-          <li>Write unit tests</li>
-          <li>Peer review code</li>
-          <li>Optimize code</li>
-        </ul>
-      </div>
-    </div>
+          <div class="relative">
+            <div class="absolute inset-0 -z-10 rounded-[2rem] bg-gradient-to-br from-brand-100 via-white to-slate-200 blur-2xl"></div>
+            <div class="overflow-hidden rounded-[2rem] border border-slate-200 bg-white p-3 shadow-soft">
+              <img src="images/vimalan.JPG" alt="Vimalan Sakthivel" class="h-[540px] w-full rounded-[1.5rem] object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <hr />
-  </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
+      <section class="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+        <div class="mb-8 flex items-end justify-between gap-4">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Core strengths</p>
+            <h2 class="mt-2 text-3xl font-bold tracking-tight text-slate-900">Designing systems that scale.</h2>
+          </div>
+        </div>
 
+        <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-soft">
+            <div class="mb-4 inline-flex rounded-xl bg-brand-50 p-3 text-brand-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Zm2 4h12M8 3v4m8-4v4" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-slate-900">Solution Architecture</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">
+              Translating business challenges into practical architecture decisions, aligned with performance,
+              usability, and long-term maintainability.
+            </p>
+          </article>
+
+          <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-soft">
+            <div class="mb-4 inline-flex rounded-xl bg-brand-50 p-3 text-brand-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 17v-7m6 7V7M5 17v-4m14 4v-2" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-slate-900">Product Thinking</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">
+              Driving user-centered product experiences by connecting design intent, business requirements, and
+              engineering feasibility in one view.
+            </p>
+          </article>
+
+          <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-soft">
+            <div class="mb-4 inline-flex rounded-xl bg-brand-50 p-3 text-brand-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 9l3 3-3 3m5-6h5M6 18h12A2 2 0 0 0 20 16V8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2Z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-slate-900">Modern Front-End</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">
+              Leading responsive, accessible interfaces with Angular, TypeScript, HTML5, CSS3, and scalable UI
+              engineering patterns for large enterprise workloads.
+            </p>
+          </article>
+
+          <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-soft">
+            <div class="mb-4 inline-flex rounded-xl bg-brand-50 p-3 text-brand-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18h.01M9.9 9.5A3.5 3.5 0 1 1 15 9.5c0 2.5-3 3.5-3 6.5" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-slate-900">Leadership</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">
+              Guiding delivery teams through architecture reviews, technical decisions, mentoring, and quality-focused
+              collaboration across agile teams.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="mb-8">
+          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Featured story</p>
+          <h2 class="mt-2 text-3xl font-bold tracking-tight text-slate-900">Technology strategy with business impact.</h2>
+        </div>
+        <div class="grid gap-8 rounded-3xl border border-slate-200 bg-white p-8 shadow-soft lg:grid-cols-[1.2fr_0.8fr]">
+          <div>
+            <p class="text-base leading-8 text-slate-600">
+              With more than 14 years in software development and a strong track record in UI architecture, I work with
+              product teams to design scalable digital experiences that align with both user needs and enterprise
+              realities. My focus spans front-end modernization, architecture strategy, accessibility, and collaborative
+              delivery in fast-moving agile environments.
+            </p>
+          </div>
+          <div class="rounded-2xl bg-slate-900 p-6 text-slate-100">
+            <p class="text-sm uppercase tracking-[0.2em] text-slate-300">Specialization</p>
+            <ul class="mt-4 space-y-3 text-sm text-slate-200">
+              <li>• Angular, TypeScript, JavaScript, HTML5, CSS3</li>
+              <li>• Node.js, NgRx, Bootstrap, and responsive design</li>
+              <li>• Accessibility and enterprise UI standards</li>
+              <li>• Agile delivery and technical leadership</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white">
+      <div class="mx-auto flex max-w-6xl flex-col justify-between gap-4 px-4 py-6 text-sm text-slate-600 sm:px-6 lg:flex-row lg:px-8">
+        <p>© 2026 Vimalan Sakthivel</p>
+        <div class="flex gap-5">
+          <a href="about.html" class="hover:text-slate-900">About</a>
+          <a href="projects.html" class="hover:text-slate-900">Projects</a>
+          <a href="awards.html" class="hover:text-slate-900">Awards</a>
+          <a href="contact.html" class="hover:text-slate-900">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
